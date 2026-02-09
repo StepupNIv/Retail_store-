@@ -674,8 +674,8 @@
     </div>
 
     <script>
-        // Configuration
-        const API_URL = 'http://13.250.103.101:3000';
+        // Configuration - 🔥 FIXED: Changed to server IP address
+        const API_URL = 'http://13.250.103.101:3000/api';
         let inventory = [];
         let sales = [];
         let cart = [];
@@ -1179,7 +1179,7 @@
                 await loadSales();
                 await loadStats();
             } else {
-                showNotification('Cannot connect to server. Please make sure the backend is running on http://localhost:3000', 'error');
+                showNotification('Cannot connect to server. Please make sure the backend is running.', 'error');
             }
         }
 
