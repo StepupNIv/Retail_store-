@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: retail
-        image: awarenivrutti11/retail:latest
+        image: awarenivrutti11/retail:v5
         ports:
         - containerPort: 3000
 ---
